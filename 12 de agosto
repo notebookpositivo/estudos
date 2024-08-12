@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Document</title>
+    <style>
+    
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #0868b2, #2563eb, #4f46e5);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.card:hover {
+    height: 400px;
+}
+
+.card .img-box {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card:hover .img-box {
+    top: -100px;
+    scale: 0.75;
+}
+
+.card .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card:hover .content {
+    top: 130px;
+    height: 250px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="img-box">
+            <img src="assets/interruptor.png">
+        </div>
+        <div class="content">
+            <h2>Interruptor</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur porro totam, beatae provident explicabo nostrum ad minus ea similique enim consectetur ipsum quam blanditiis quibusdam mollitia adipisci error vel voluptatem?
+            </p>
+            <a href="#" class="read-more">
+                Read more
+            </a>
+        </div>
+    </div>
+</body>
+</html>
