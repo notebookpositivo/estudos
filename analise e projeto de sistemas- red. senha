@@ -89,8 +89,8 @@ body {
             <p>
                 Enviamos para seu e-mail, um link para redefinição de senha.
             </p>
-            <a href="#" class="read-more">
-                Reenviar link
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="link">
+                Ir para caixa de entrada do email
             </a>
         </div>
     </div>
